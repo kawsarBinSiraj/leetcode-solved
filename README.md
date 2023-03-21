@@ -24,7 +24,7 @@ var customSortString = function(order, s) {
 }; 
  ```
                                       
-### [[[<a href="https://leetcode.com/problems/custom-sort-string/" target="_blank"> 791. Custom Sort String<a/>]](https://leetcode.com/problems/kth-missing-positive-number/)](https://leetcode.com/problems/kth-missing-positive-number/)
+### [<a href="https://leetcode.com/problems/custom-sort-string/" target="_blank"> 791. Custom Sort String<a/>]
     
 Here is my solution : 
 ```
