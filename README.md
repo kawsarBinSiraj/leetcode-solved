@@ -14,7 +14,8 @@ Output: "cbad"
 
 
 Solution : <br/>
-/**
+<code> 
+    /**
  * @param {string} order
  * @param {string} s
  * @return {string}
@@ -33,3 +34,5 @@ var customSortString = function(order, s) {
     }, '')
     return  a + c
 };
+    
+<code/>
