@@ -24,3 +24,4 @@ var customSortString = function(order, s) {
 }; 
  ```
                                       
+### https://leetcode.com/problems/kth-missing-positive-number/
