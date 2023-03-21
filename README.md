@@ -8,7 +8,6 @@ Permute the characters of s so that they match the order that order was sorted. 
 
 Return any permutation of s that satisfies this property.
 
-Example 2:
-
-Input: order = "cbafg", s = "abcd"
+Example 2: <br/>
+Input: order = "cbafg", s = "abcd" <br/>
 Output: "cbad"
