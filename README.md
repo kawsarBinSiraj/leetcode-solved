@@ -1,6 +1,6 @@
 # leetcode-solved
 
-### [<a href="https://leetcode.com/problems/custom-sort-string/" target="_blank"> 791. Custom Sort String<a/>](https://leetcode.com/problems/custom-sort-string/)
+### [<a href="https://leetcode.com/problems/custom-sort-string/" target="_blank"> 791. Custom Sort String<a/>]
 Here is my solution : 
 ```
 /**
@@ -24,4 +24,21 @@ var customSortString = function(order, s) {
 }; 
  ```
                                       
-### https://leetcode.com/problems/kth-missing-positive-number/
+### [[[<a href="https://leetcode.com/problems/custom-sort-string/" target="_blank"> 791. Custom Sort String<a/>]](https://leetcode.com/problems/kth-missing-positive-number/)](https://leetcode.com/problems/kth-missing-positive-number/)
+    
+Here is my solution : 
+```
+/**
+ * @param {string} order
+ * @param {string} s
+ * @return {string}
+ */
+var findKthPositive = function(arr, k) {
+    let store = [];
+    for (let i = 1;; i++) {
+        if (!arr.includes(i)) store.push(i)
+        if (store.length === k) break
+    }
+    return store[k - 1]
+};
+ ```
