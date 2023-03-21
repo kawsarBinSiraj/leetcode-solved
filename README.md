@@ -11,3 +11,25 @@ Return any permutation of s that satisfies this property.
 Example 2: <br/>
 Input: order = "cbafg", s = "abcd" <br/>
 Output: "cbad"
+
+
+Solution : <br/>
+/**
+ * @param {string} order
+ * @param {string} s
+ * @return {string}
+ */
+var customSortString = function(order, s) {
+    let c = s.split('').reduce((acc, item)=> {
+        if (!order.includes(item)) acc += item;
+        return  acc
+    }, '')
+    let a = order.split('').reduce((acc, item)=> {
+            if (s.includes(item)) {
+                let l = s.split(item).length
+                for (let i = 1; i < l; i++) acc += item
+            }
+            return  acc
+    }, '')
+    return  a + c
+};
