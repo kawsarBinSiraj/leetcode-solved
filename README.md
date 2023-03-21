@@ -3,11 +3,6 @@
 ### <a href="https://leetcode.com/problems/custom-sort-string/" target="_blank"> 791. Custom Sort String<a/>
 Here is my solution : 
 ```
-/**
- * @param {string} order
- * @param {string} s
- * @return {string}
- */
 var customSortString = function(order, s) {
     let c = s.split('').reduce((acc, item)=> {
         if (!order.includes(item)) acc += item;
@@ -28,11 +23,6 @@ var customSortString = function(order, s) {
     
 Here is my solution : 
 ```
-/**
- * @param {string} order
- * @param {string} s
- * @return {string}
- */
 var findKthPositive = function(arr, k) {
     let store = [];
     for (let i = 1;; i++) {
