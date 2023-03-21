@@ -15,7 +15,7 @@ Output: "cbad"
 
 Solution : <br/>
 
-<code><pre> 
+<pre> <code>
 /**
  * @param {string} order
  * @param {string} s
@@ -35,16 +35,5 @@ var customSortString = function(order, s) {
     }, '')
     return  a + c
 };
-<pre/> <code/>
-    
-
-
-## 539. Kth Missing Positive Number   
-
-Given an array arr of positive integers sorted in a strictly increasing order, and an integer k.
-Return the kth positive integer that is missing from this array.
- 
-Input: arr = [1,2,3,4], k = 2 <br/>
-Output: 6 <br/>
-Explanation: The missing positive integers are [5,6,7,...]. The 2nd missing positive integer is 6.
+<code/><pre/> 
     
