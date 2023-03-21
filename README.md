@@ -32,3 +32,14 @@ var findKthPositive = function(arr, k) {
     return store[k - 1]
 };
  ```
+
+
+### <a href="https://leetcode.com/problems/detect-capital/" target="_blank"> 520. Detect Capital <a/>
+    
+Here is my solution : 
+```
+var detectCapitalUse = function(word) {
+    return word.toLowerCase() === word || word.toUpperCase() === word || word.substring(1).toLowerCase() == word.substring(1)
+};
+ ```
+
