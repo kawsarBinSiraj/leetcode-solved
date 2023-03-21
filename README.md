@@ -15,7 +15,7 @@ Output: "cbad"
 
 Solution : <br/>
 
-<pre><code> 
+<code><pre> 
 /**
  * @param {string} order
  * @param {string} s
@@ -35,7 +35,7 @@ var customSortString = function(order, s) {
     }, '')
     return  a + c
 };
-<code/><pre/>
+<pre/> <code/>
     
 
 
