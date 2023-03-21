@@ -89,7 +89,7 @@ var isPalindrome = function(x) {
 
     
     
- ### <a href="https://leetcode.com/problems/determine-if-string-halves-are-alike/description/ target="_blank"> 1704. Determine if String Halves Are Alike <a/>
+ ### <a href="https://leetcode.com/problems/determine-if-string-halves-are-alike/description/" target="_blank"> 1704. Determine if String Halves Are Alike <a/>
     
 Here is my solution : 
 ```
@@ -112,7 +112,7 @@ var halvesAreAlike = function(s) {
  
      
      
-### <a href="https://leetcode.com/problems/two-sum/description/ target="_blank"> 1. Two Sum <a/>
+### <a href="https://leetcode.com/problems/two-sum/description/" target="_blank"> 1. Two Sum <a/>
     
 Here is my solution : 
 ```
