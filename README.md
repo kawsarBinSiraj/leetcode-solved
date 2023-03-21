@@ -1,7 +1,7 @@
 # leetcode-solved
 
 <a href="#" target="_blank"> 791. Custom Sort String<a/>
-```
+`
 /**
  * @param {string} order
  * @param {string} s
@@ -21,4 +21,4 @@ var customSortString = function(order, s) {
     }, '')
     return  a + c
 };
-                                      ```
+                                      `
